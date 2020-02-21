@@ -1,0 +1,31 @@
+{
+  "name": "react-quick-state",
+  "version": "1.0.0",
+  "description": "An quick way to manage global state in React application. Heavily inspired by no-longer-maintained library react-easy-state, but with less monkey-patching and scheduler interference",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development"
+  },
+  "author": {
+    "name": "Espen Haviken",
+    "email": "espen.haviken@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@nx-js/observer-util": "^4.2.2"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0"
+  },
+  "devDependencies": {
+    "react": "^16.12.0",
+    "webpack": "^5.0.0-beta.11",
+    "webpack-cli": "^3.3.10",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6"
+  }
+}
